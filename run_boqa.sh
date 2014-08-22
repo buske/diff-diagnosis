@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+set -eu
+set -o pipefail
+
 if [[ $1 == "-h" ]]; then
 	echo "usage: $0 hpo_dir out_dir"
 	exit
